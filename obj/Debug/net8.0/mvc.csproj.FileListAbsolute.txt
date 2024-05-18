@@ -28,3 +28,7 @@
 /home/niliara/csharp/mvc/obj/Debug/net8.0/mvc.pdb
 /home/niliara/csharp/mvc/obj/Debug/net8.0/mvc.genruntimeconfig.cache
 /home/niliara/csharp/mvc/obj/Debug/net8.0/ref/mvc.dll
+/home/niliara/csharp/mvc/obj/Debug/net8.0/mvc.sourcelink.json
+/home/niliara/csharp/mvc/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/niliara/csharp/mvc/obj/Debug/net8.0/mvc.csproj.AssemblyReference.cache
+/home/niliara/csharp/mvc/obj/Debug/net8.0/mvc.csproj.CopyComplete
