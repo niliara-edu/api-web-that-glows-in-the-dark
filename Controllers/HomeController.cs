@@ -6,7 +6,6 @@ using Newtonsoft.Json;
 namespace mvc.Controllers;
 
 
-
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
