@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var drink in Model.drinks) {
+<div class="item not-smol">
+    <div class="title">
+    <h2>@drink.strDrink</h2>
+    </div>
+
+    <div class="image">
+    <img src=@drink.strDrinkThumb alt="">
+    </div>
+
+    <div class="description">
+	<p>
+	@drink.strCategory,
+	@if (@drink.strIBA != null) {
+	<span>
+		@drink.strIBA,
+	</span>
+	}
+	@drink.strAlcoholic
+	</p>
+    </div>
+    <a class="fill-div" href="#"></a>
+</div>
+}

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets/mvc.bundle.scp.css"
     },
     {
+      "Id": "/home/niliara/csharp/mvc/wwwroot/css/Darker_Glitch_City.png",
+      "PackagePath": "staticwebassets/css/Darker_Glitch_City.png"
+    },
+    {
+      "Id": "/home/niliara/csharp/mvc/wwwroot/css/VT323-Regular.ttf",
+      "PackagePath": "staticwebassets/css/VT323-Regular.ttf"
+    },
+    {
       "Id": "/home/niliara/csharp/mvc/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

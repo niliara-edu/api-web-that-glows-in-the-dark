@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sRUMx5MVhmh+mGfpAHgm2Iq0VNa+4JR8vvZsXajeVk4=",
+  "Hash": "YpZkhi/eB2MnXcO0w/9BETohcu6nLv4hTUSKDY9gGqA=",
   "Source": "mvc",
   "BasePath": "_content/mvc",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "/home/niliara/csharp/mvc/obj/Debug/net8.0/scopedcss/projectbundle/mvc.bundle.scp.css"
     },
     {
+      "Identity": "/home/niliara/csharp/mvc/wwwroot/css/Darker_Glitch_City.png",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/niliara/csharp/mvc/wwwroot/",
+      "BasePath": "_content/mvc",
+      "RelativePath": "css/Darker_Glitch_City.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Darker_Glitch_City.png"
+    },
+    {
       "Identity": "/home/niliara/csharp/mvc/wwwroot/css/site.css",
       "SourceId": "mvc",
       "SourceType": "Discovered",
@@ -72,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/niliara/csharp/mvc/wwwroot/css/VT323-Regular.ttf",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/niliara/csharp/mvc/wwwroot/",
+      "BasePath": "_content/mvc",
+      "RelativePath": "css/VT323-Regular.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/VT323-Regular.ttf"
     },
     {
       "Identity": "/home/niliara/csharp/mvc/wwwroot/favicon.ico",

@@ -31,11 +31,18 @@ public class HomeController : Controller
     {
         //1232343345455
         //const string apiUrl = "https://newton.now.sh/api/v2/factor/x^2-1";
-        const string apiUrl = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita";
+        return View();
+    }
+
+    public ActionResult Cocktails(string search)
+    {
+        //1232343345455
+        //const string apiUrl = "https://newton.now.sh/api/v2/factor/x^2-1";
+
+        string apiUrl = $"https://www.thecocktaildb.com/api/json/v1/1/search.php?s={search}";
         var client = new HttpClient();
         var response = client.GetAsync(apiUrl).Result;
         var content = response.Content.ReadAsStringAsync().Result;
-        Console.WriteLine(content);
 
         //Cocktail model = JsonConvert.DeserializeObject<Cocktail>(content);
         Root model = JsonConvert.DeserializeObject<Root>(content);
@@ -43,9 +50,17 @@ public class HomeController : Controller
         return View(model);
     }
 
-    public IActionResult Privacy()
+    
+
+    public IActionResult One(string id = "11007")
     {
-        return View();
+        string apiUrl = $"https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i={id}";
+        var client = new HttpClient();
+        var response = client.GetAsync(apiUrl).Result;
+        var content = response.Content.ReadAsStringAsync().Result;
+
+        Root model = JsonConvert.DeserializeObject<Root>(content);
+        return View(model);
     }
 
 

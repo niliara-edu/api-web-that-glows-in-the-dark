@@ -5,31 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - mvc</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/mvc.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <a asp-area="" asp-controller="Home" asp-action="Index">mvc</a>
-                <button type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                </button>
-                <div>
-                    <ul>
-                        <li>
-                            <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li>
-                            <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    </header>
 
-    @RenderBody()
+
+<h1 class="smaller-title">CocktailDB</h1>
+<p class="marquee">
+<span>
+Are you looking for a specific drink? Try using the searchbar!
+</span>
+</p>
+<br>
+
+@using(Html.BeginForm("Cocktails", "Home", FormMethod.Post))
+{
+<div class="sdiv">
+<input class="search" type="text" name="search" id="search" placeholder="Search drink here">
+</div>
+<input type="submit" value="Search" style="width:0px; height:0px; font-size:0; border: none !important; background: transparent; float:right;"/>
+}
+<div class="navbar">
+<a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home
+</a><a class="nav-link" asp-area="" asp-controller="Home" asp-action="One">One
+</a><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Cocktails">Many
+</a>
+</div>
+
+
+@RenderBody()
 
 </body>
 </html>
