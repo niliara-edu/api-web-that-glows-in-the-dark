@@ -13,8 +13,8 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/home/niliara/csharp/mvc/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "/home/niliara/csharp/mvc/wwwroot/fonts/font.ttf",
+      "PackagePath": "staticwebassets/fonts/font.ttf"
     },
     {
       "Id": "/home/niliara/csharp/mvc/wwwroot/lib/bootstrap/LICENSE",

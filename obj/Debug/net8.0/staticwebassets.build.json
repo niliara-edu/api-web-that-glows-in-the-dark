@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4cpnNvKNS5lUeJglhZYW1MYGt+w8mQsWeYEEkISU6KA=",
+  "Hash": "sRUMx5MVhmh+mGfpAHgm2Iq0VNa+4JR8vvZsXajeVk4=",
   "Source": "mvc",
   "BasePath": "_content/mvc",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/home/niliara/csharp/mvc/wwwroot/js/site.js",
+      "Identity": "/home/niliara/csharp/mvc/wwwroot/fonts/font.ttf",
       "SourceId": "mvc",
       "SourceType": "Discovered",
       "ContentRoot": "/home/niliara/csharp/mvc/wwwroot/",
       "BasePath": "_content/mvc",
-      "RelativePath": "js/site.js",
+      "RelativePath": "fonts/font.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot/fonts/font.ttf"
     },
     {
       "Identity": "/home/niliara/csharp/mvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
