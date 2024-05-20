@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db2NrdGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/niliara/csharp/mvc/Views/Home/CocktailsByIngredient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db2NrdGFpbHNCeUluZ3JlZGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/niliara/csharp/mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

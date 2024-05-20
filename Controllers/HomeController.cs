@@ -40,6 +40,7 @@ public class HomeController : Controller
         //const string apiUrl = "https://newton.now.sh/api/v2/factor/x^2-1";
 
         string apiUrl = $"https://www.thecocktaildb.com/api/json/v1/1/search.php?s={search}";
+
         var client = new HttpClient();
         var response = client.GetAsync(apiUrl).Result;
         var content = response.Content.ReadAsStringAsync().Result;
@@ -51,10 +52,36 @@ public class HomeController : Controller
     }
 
     
-
-    public IActionResult One(string id = "11007")
+    public ActionResult CocktailsByIngredient(string ingredient)
     {
-        string apiUrl = $"https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i={id}";
+        string apiUrl = $"https://www.thecocktaildb.com/api/json/v1/1/filter.php?i={ingredient}";
+
+        Console.WriteLine(apiUrl);
+
+        var client = new HttpClient();
+        var response = client.GetAsync(apiUrl).Result;
+        var content = response.Content.ReadAsStringAsync().Result;
+
+        //Cocktail model = JsonConvert.DeserializeObject<Cocktail>(content);
+        Simplified model = JsonConvert.DeserializeObject<Simplified>(content);
+        return View(model);
+    }
+
+    
+
+    public IActionResult One(string id = "")
+    {
+        string apiUrl;
+
+        if (id == "")
+        {
+            apiUrl = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
+        }
+        else
+        {
+            apiUrl = $"https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i={id}";
+        }
+
         var client = new HttpClient();
         var response = client.GetAsync(apiUrl).Result;
         var content = response.Content.ReadAsStringAsync().Result;

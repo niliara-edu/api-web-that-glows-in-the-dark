@@ -64,3 +64,16 @@ public class Cocktail
 {
 	public List<Cocktail>? drinks { get; set; }
 }
+
+public class SimplifiedCocktail
+{
+	public string? idDrink { get; set; }
+	public string? strDrink { get; set; }
+	public string? strDrinkThumb { get; set; }
+}
+
+
+public class Simplified
+{
+	public List<SimplifiedCocktail>? drinks { get; set; }
+}

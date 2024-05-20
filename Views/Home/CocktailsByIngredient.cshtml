@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Cocktails";
+}
+
+<div class="items">
+
+@foreach (var drink in Model.drinks) {
+<div class="item simple-item smol">
+    <div class="title">
+    <h2>@drink.strDrink</h2>
+    </div>
+
+    <div class="image">
+    <img src=@drink.strDrinkThumb alt="">
+    </div>
+
+    <a class="fill-div" asp-controller="Home" asp-action="One" asp-route-id=@drink.idDrink></a>
+</div>
+}
+
+</div>
+

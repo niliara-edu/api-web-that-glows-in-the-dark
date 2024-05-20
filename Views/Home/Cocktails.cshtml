@@ -1,12 +1,11 @@
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Cocktails";
 }
-
 
 <div class="items">
 
 @foreach (var drink in Model.drinks) {
-<div class="item smol">
+<div class="item normal-item smol">
     <div class="title">
     <h2>@drink.strDrink</h2>
     </div>
@@ -24,7 +23,32 @@
 	</span>
 	}
 	@drink.strAlcoholic
+	@{string[] ingredients = [drink.strIngredient1,
+	drink.strIngredient2,
+	drink.strIngredient3,
+	drink.strIngredient4,
+	drink.strIngredient5,
+	drink.strIngredient6,
+	drink.strIngredient7,
+	drink.strIngredient8,
+	drink.strIngredient9,
+	drink.strIngredient10,
+	drink.strIngredient11,
+	drink.strIngredient12,
+	drink.strIngredient13,
+	drink.strIngredient14,
+	drink.strIngredient15]
+	;}
 	</p>
+	Ingredients:
+	<ul>
+	@foreach (string ingredient in ingredients) {
+	@if (ingredient == null) break;
+	<li>
+	<a  style="color:#ff5c55" asp-controller="Home" asp-action="CocktailsByIngredient" asp-route-connectionType=1 asp-route-ingredient=@ingredient>@ingredient</a>
+	</li>
+	}
+	</ul>
     </div>
     <a class="fill-div" asp-controller="Home" asp-action="One" asp-route-id=@drink.idDrink></a>
 </div>

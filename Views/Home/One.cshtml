@@ -1,9 +1,9 @@
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "One";
 }
 
 @foreach (var drink in Model.drinks) {
-<div class="item not-smol">
+<div class="item large-item not-smol">
     <div class="title">
     <h2>@drink.strDrink</h2>
     </div>
@@ -15,14 +15,47 @@
     <div class="description">
 	<p>
 	@drink.strCategory,
-	@if (@drink.strIBA != null) {
+	@if (drink.strIBA != null) {
 	<span>
 		@drink.strIBA,
 	</span>
 	}
 	@drink.strAlcoholic
+	@{string[][] ingredients = [
+	[drink.strIngredient1, drink.strMeasure1],
+	[drink.strIngredient2, drink.strMeasure2],
+	[drink.strIngredient3, drink.strMeasure3],
+	[drink.strIngredient4, drink.strMeasure4],
+	[drink.strIngredient5, drink.strMeasure5],
+	[drink.strIngredient6, drink.strMeasure6],
+	[drink.strIngredient7, drink.strMeasure7],
+	[drink.strIngredient8, drink.strMeasure8],
+	[drink.strIngredient9, drink.strMeasure9],
+	[drink.strIngredient10, drink.strMeasure10],
+	[drink.strIngredient11, drink.strMeasure11],
+	[drink.strIngredient12, drink.strMeasure12],
+	[drink.strIngredient13, drink.strMeasure13],
+	[drink.strIngredient14, drink.strMeasure14],
+	[drink.strIngredient15, drink.strMeasure15]]
+	;}
+	</p>
+	Ingredients:
+	<ul>
+	@foreach (string[] ingredient in ingredients) {
+	@if (ingredient[0] == null) break;
+	<li>
+	<a  style="color:#ff5c55" asp-controller="Home" asp-action="CocktailsByIngredient" asp-route-connectionType=1 asp-route-ingredient=@ingredient[0]>@ingredient[0]</a>
+	- @ingredient[1]
+	</li>
+	}
+	</ul>
+    </div>
+
+	<div class="instructions">
+	<p>
+	@drink.strInstructions
 	</p>
     </div>
-    <a class="fill-div" href="#"></a>
+    <a class="fill-div" asp-controller="Home" asp-action="One" asp-route-id=@drink.idDrink></a>
 </div>
 }
