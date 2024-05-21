@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/niliara/csharp/mvc/mvc.csproj",
+      "projectUniqueName": "/home/niliara/csharp/api-web-that-glows-in-the-dark/mvc.csproj",
       "projectName": "mvc",
-      "projectPath": "/home/niliara/csharp/mvc/mvc.csproj",
+      "projectPath": "/home/niliara/csharp/api-web-that-glows-in-the-dark/mvc.csproj",
       "packagesPath": "/home/niliara/.nuget/packages/",
-      "outputPath": "/home/niliara/csharp/mvc/obj/",
+      "outputPath": "/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/niliara/.nuget/NuGet/NuGet.Config"
