@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uVkeFw8PlEXq9cZOAR9W8+NGaBJjHxm23CrPygiX51g=",
+  "Hash": "ksj5nWln/+86zAW12ym72vLx1ktg4LLsle45JXU6Upo=",
   "Source": "mvc",
   "BasePath": "_content/mvc",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/bundle/mvc.styles.css",
-      "SourceId": "mvc",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/bundle/",
-      "BasePath": "_content/mvc",
-      "RelativePath": "mvc.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/bundle/mvc.styles.css"
-    },
-    {
-      "Identity": "/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/projectbundle/mvc.bundle.scp.css",
-      "SourceId": "mvc",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/projectbundle/",
-      "BasePath": "_content/mvc",
-      "RelativePath": "mvc.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/projectbundle/mvc.bundle.scp.css"
-    },
     {
       "Identity": "/home/niliara/csharp/api-web-that-glows-in-the-dark/wwwroot/css/Darker_Glitch_City.png",
       "SourceId": "mvc",

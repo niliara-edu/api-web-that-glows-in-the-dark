@@ -2,6 +2,8 @@
     ViewData["Title"] = "Cocktails";
 }
 
+@if (@Model.drinks != null) {
+
 <div class="items">
 
 @foreach (var drink in Model.drinks) {
@@ -55,4 +57,8 @@
 }
 
 </div>
+}
 
+else {
+<h1 class="showing-results">No results found</h1>
+}

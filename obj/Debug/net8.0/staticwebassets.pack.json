@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/projectbundle/mvc.bundle.scp.css",
-      "PackagePath": "staticwebassets/mvc.bundle.scp.css"
-    },
-    {
       "Id": "/home/niliara/csharp/api-web-that-glows-in-the-dark/wwwroot/css/Darker_Glitch_City.png",
       "PackagePath": "staticwebassets/css/Darker_Glitch_City.png"
     },

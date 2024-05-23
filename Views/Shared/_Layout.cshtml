@@ -9,11 +9,35 @@
 <body>
 
 
-<h1 class="smaller-title">CocktailDB</h1>
+<h1 class="page-title">CocktailDB</h1>
 <p class="marquee">
-<span>
-Are you looking for a specific drink? Try using the searchbar!
-</span>
+
+@{
+Random rnd = new Random();
+}
+@switch (rnd.Next(0, 6)) {
+    case 0:
+<span>Are you looking for a specific drink? Try using the searchbar!</span>
+break;
+    case 1:
+<span>Did you know? You can click on drink names for more information!</span>
+break;
+    case 2:
+<span>Did you know? You can click on ingredients to filter by ingredient!</span>
+break;
+    case 3:
+<span>Did you know? Alcohol is bad</span>
+break;
+    case 4:
+<span>I'm so passionate about alcohol, I'm literally shaking every time I'm about to drink</span>
+break;
+    case 5:
+<span>Are you looking for a specific drink? Try using wikipedia!</span>
+break;
+    default:
+<span>This text is not supposed to show lol</span>
+break;
+}
 </p>
 <br>
 
@@ -22,6 +46,7 @@ Are you looking for a specific drink? Try using the searchbar!
 <div class="sdiv">
 <input class="search" type="text" name="search" id="search" placeholder="Search drink here">
 </div>
+
 <input type="submit" value="Search" style="width:0px; height:0px; font-size:0; border: none !important; background: transparent; float:right;"/>
 }
 <div class="navbar">

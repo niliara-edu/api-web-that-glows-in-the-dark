@@ -57,9 +57,7 @@
 /home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.mvc.props
 /home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.mvc.props
 /home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/staticwebassets.pack.json
-/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/bundle/mvc.styles.css
-/home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/scopedcss/projectbundle/mvc.bundle.scp.css
 /home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/mvc.csproj.CopyComplete
 /home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/mvc.dll
 /home/niliara/csharp/api-web-that-glows-in-the-dark/obj/Debug/net8.0/refint/mvc.dll
